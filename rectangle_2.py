@@ -1,12 +1,10 @@
 from rectangle import Rectangle, Square, Circle
 
-# dalle sozdaem 2 prjamougolnika
-
+#  sozdaem 2 prjamougolnika
 rect_1 = Rectangle(3,4)
 rect_2 = Rectangle(12,5)
 
 #vivod plosjadi
-
 print(rect_1.get_area())
 print(rect_2.get_area())
 
@@ -25,4 +23,3 @@ for figure in figures:
 
 circle_1 = Circle(5)
 print(circle_1.get_area_circle())
-

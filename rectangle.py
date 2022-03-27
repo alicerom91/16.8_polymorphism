@@ -13,8 +13,6 @@ class Square:
 
     def get_area_square(self):
         return self.a ** 2
-
-
 # vozvrashenije v stepen **2 v kvadrat
 
 
